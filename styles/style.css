@@ -1,0 +1,80 @@
+header{
+    width: 100%;
+   
+    flex-shrink: 0; 
+   
+}
+
+.navbar{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    height: 208px;
+    border: 1px solid var(--000000, #000);
+    background: var(--233000, #233000);
+}
+.navbar-menu{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-menu p{
+    display: flex;
+width: 230px;
+height: 53px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: var(--FFFFFF, #FFF);
+
+
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btn-primary {
+    background-color: #ff6600; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 20px 46px;
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Optional: Add rounded corners to the button */
+}
+
+.btn-primary a{
+    color: var(--FFFFFF, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Heading 5 */
+font-family: Rufina;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 150% */
+text-decoration: none;
+}
+.btn-primary a:hover {
+    background-color: #cc5500;
+
+.main-header{
+    border: 1px solid var(--000000, #000);
+    background: var(--233000, #344600);
+    height:2554px;
+    width: 100%;
+}
+
+.main-header{
+
+}
+
+.photo-card{
+
+}
+
+.photo-card-body{
+    
+}
