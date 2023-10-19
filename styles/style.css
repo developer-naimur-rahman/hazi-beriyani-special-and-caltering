@@ -10,7 +10,7 @@ header{
     padding: 10px;
     align-items: center;
     justify-content: space-between;
-    height: 208px;
+    height: 160px;
     border: 1px solid var(--000000, #000);
     background: var(--233000, #233000);
 }
@@ -59,22 +59,21 @@ text-decoration: none;
 }
 .btn-primary a:hover {
     background-color: #cc5500;
-
-.main-header{
-    border: 1px solid var(--000000, #000);
-    background: var(--233000, #344600);
-    height:2554px;
-    width: 100%;
-}
-
-.main-header{
-
-}
-
-.photo-card{
-
-}
-
-.photo-card-body{
+} 
+.main-header {
+        text-align: center; /* Center the content horizontally */
+        background-color: #2f4101;
+    }
     
+    /* Style for the photo card container */
+.photo-card {
+        display: flex; /* Make the photo card inline */
+        margin: 10px; /* Add some margin for spacing between cards */
+        border: 1px solid #ccc; /* Optional: Add a border around the card */
+        padding: 20px; /* Optional: Add padding inside the card */
+
+    }
+.photo-card img{
+    height: 931px;
+    width: 600px;
 }
